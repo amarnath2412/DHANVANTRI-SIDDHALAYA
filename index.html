@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="stylesheet" href="./Css/foot.css">
+    <link rel="icon" type="image/png" href="./Assets/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHANVANTRI SIDDHALAYA</title>
+    <style>
+        * {
+            position: relative;
+        }
+
+        .Rectangle {
+            width: 200px;
+            height: 200px;
+            background: #c4c4c4;
+            box-shadow: 4px 4px 4px #000;
+            border-radius: 30px;
+        }
+
+        .Rectangle-2 {
+          position: absolute;
+          top: 100px;
+          left: 60px; 
+          width: 200px;
+          height: 200px;
+          background: #c4c4c4;
+          border: 2px solid #000;
+          border-radius: 30px;
+        }
+
+        .flex-container {
+          display: flex;
+          justify-content: space-between;
+}
+
+.text-side {
+  flex: 1;
+}
+
+.home-title {
+  flex: 1;
+}
+
+    </style>
+</head>
+<body>
+
+  <div class="background" style="background: url(./Assets/background-spot.svg); cursor: url(./Assets/Icons/reshot-icon-doctor-PKGMTDSNRQ.svg), auto;">
+    <div class="navy-bar">
+        <button id="toggle-button" onclick="toggleItems()">
+          <img src="./Assets/logo.png" alt="Logo">
+        </button>
+        <div class="navy-items hidden">
+          <div class="navy-item" onclick="navigateTo('#home')">Home</div>
+          <div class="navy-item" onclick="navigateTo('#services')">Services</div>
+          <div class="navy-item" onclick="navigateTo('#about')">About</div>
+          <div class="navy-item" onclick="navigateTo('#contact')">Contact</div>
+        </div>
+    </div>
+
+    <section id="home" style="cursor: url(./Assets/Icons/reshot-icon-doctor-PKGMTDSNRQ.svg), auto;">
+      <div class="home-page">
+        <div class="container with-background">
+          <div class="text-side slideInLeft">
+              <h1>Your path to wellness starts here!</h1>
+              <p>Discover the Healing Sanctuary of Dhanvantri Siddhalaya, Your Path to Complete Health and Well-being.</p>
+          </div>
+          <div class="centered-content centered-image">
+            <div class="home-title slideInRight">
+              <div class="Rectangle">
+                <img src="./Assets/home-2.jpg">
+                  <div class="Rectangle-2">
+                    <img src="./Assets/home.jpeg">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="cursor: url(./Assets/Icons/reshot-icon-search-Y9FGCMS8DP.svg), auto;">
+
+      <!------------------------------------------------------>
+
+      <div class="heading">  
+        <h1>About Us</h1>
+        <p>Your Path to Holistic Health and Well-being</p>
+      </div>
+      
+      <div class="container">
+        <section class="about">
+          <div class="about-image zoomIn">
+            <img src="./Assets/aboutUs.jpg">
+          </div>
+          <div class="about-content">
+            <p>Dhanvantri Siddhalayaa is a holistic healthcare institution dedicated to providing comprehensive healthcare services and online consultations. Our mission is to promote health and well-being through a combination of traditional and modern healthcare practices.</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content">
+            <h1>Our Mission</h1>
+            <p>Our mission is to provide holistic and patient-centric healthcare that empowers individuals to live their best lives. We strive to combine ancient healing wisdom with modern medical advancements to offer the most effective and compassionate care.</p>
+          </div>
+          <div class="about-image zoomIn">
+            <img src="./Assets/9109498.png">
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-image zoomIn">
+            <img src="./Assets/Apporach (2).jpg">
+          </div>
+          <div class="about-content">
+            <h1>Our Approach</h1>
+            <p>Dhanvantri Siddhalaya is not just a healthcare center; it's a place of hope, healing, and transformation. We approach healthcare as a partnership between our dedicated medical professionals and our valued patients. By addressing physical, emotional, and spiritual aspects of health, we create a harmonious balance that leads to lasting well-being.</p>
+          </div>
+        </section>
+      </div>
+
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content">
+            <h1>Our Services</h1>
+            <p>Our comprehensive range of services encompasses traditional and alternative medicine, personalized treatment plans, and cutting-edge diagnostics. From Ayurveda to modern medical treatments, we offer a broad spectrum of choices to cater to individual needs.</p>
+          </div>
+          <div class="about-image zoomIn">
+            <img src="./Assets/medical-instrument-paperwork-focus-foreground-close-up-generated-by-ai.jpg">
+          </div>
+        </section>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+            <div class="about-image zoomIn">
+                <img src="./Assets/tam.jpg">
+              </div>
+          <div class="about-content">
+            <h1>Our Team</h1>
+            <p>Our team is a blend of experienced physicians, specialists, therapists, and support staff who share a commitment to excellence and a passion for healthcare. They work together to provide personalized care and support throughout your healing journey.</p>
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content">
+            <h1>Patient-Centered Care</h1>
+            <p>We understand that every individual is unique, and their healthcare needs vary. Therefore, we take a patient-centered approach, listening to your concerns and tailoring treatments to suit your specific requirements. Your well-being is our priority.</p>
+          </div>
+          <div class="about-image zoomIn">
+            <img src="./Assets/medical-nurses-working-together-hospital.jpg">
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+            <div class="about-image zoomIn">
+                <img src="./Assets/successful-business-partnership-formed-through-handshake-teamwork-generated-by-ai.jpg">
+              </div>
+          <div class="about-content">
+            <h1>Our Promise</h1>
+            <p>Dhanvantri Siddhalaya is more than just a healthcare center; it's a promise of renewed health and vitality. We are dedicated to helping you achieve optimal health, and we look forward to being a part of your wellness journey.</p>
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+    </section>
+
+
+    <!---------------------------------------------------------------------------------------------->
+
+
+    <section id="services" style="cursor: url(./Assets/Icons/reshot-icon-doctor-chair-25BRAJLCSD\ \(1\).svg), auto;">
+
+      <div class="heading">  
+        <h1>Treatment</h1>
+      </div>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content slideInLeft">
+            <h1>Kidney Stones</h1>
+            <p>Kidney stones, also known as renal calculi or simply "stones," are mineral deposits that form in the kidneys and can lead to severe pain when they travel down the urinary tract. These stones are composed of various minerals and salts and can cause symptoms such as excruciating lower back or abdominal pain, frequent urination, bloody or cloudy urine, and discomfort during urination. Prompt medical evaluation and management are essential to alleviate the pain and address the underlying causes of kidney stone formation.</p>
+          </div>
+        </section>
+      </div>
+
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content slideInLeft">
+            <h1>Liver Complaint</h1>
+            <p>Liver complaints encompass a range of symptoms, including loss of appetite, yellowish skin and eyes (jaundice), abdominal pain and swelling, edema in legs and ankles, itchy skin, dark urine, pale stool, chronic fatigue, and gastrointestinal distress, which could be indicative of cirrhosis, hepatitis, or fatty liver disease. Seeking timely medical attention is crucial to address these potential underlying liver issues and ensure optimal health</p>
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-image zoomIn">
+            <img src="./Assets/woman-wearing-mask-checking-man.jpg">
+          </div>
+          <div class="about-content slideInLeft">
+            <h1>Jaundice</h1>
+            <p>Jaundice, a condition characterized by yellowing of the skin and eyes, can be accompanied by symptoms like abdominal pain, flu-like manifestations, dark-colored urine, and clay-colored stools. It often indicates an issue with the liver or bile ducts, necessitating medical attention to diagnose and treat the underlying cause, ensuring the restoration of a healthy complexion and overall well-being.</p>
+          </div>
+        </section>
+      </div>
+
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content slideInLeft">
+            <h1>ECZEMA</h1>
+        <p>Eczema is a chronic skin condition that leads to the development of dry, itchy patches on the skin. These patches can be uncomfortable and aesthetically distressing. Managing eczema typically involves moisturizing the skin, avoiding triggers, and, in some cases, using prescribed treatments to alleviate symptoms and enhance skin health.</p>
+      </div>
+        </section>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+            <div class="about-image zoomIn">
+                <img src="./Assets/young-man-suffering-from-cough-shirt-looking-ill.jpg">
+              </div>
+          <div class="about-content slideInLeft">
+            <h1>Tuberculosis</h1>
+        <p>TB (Tuberculosis) is an infectious disease that primarily affects the lungs but can also target other body tissues. It is caused by the bacterium Mycobacterium tuberculosis and is characterized by symptoms such as persistent cough, weight loss, fatigue, and fever. Timely diagnosis and appropriate treatment are crucial to manage the spread of the disease and support the patient's recovery</p>
+    </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content slideInLeft">
+            <h1>Skin Diseases</h1>
+        <p>Skin diseases encompass a broad spectrum of conditions, including discoloration, itching, dryness, and rashes, often causing discomfort and impacting one's overall well-being. Timely diagnosis and tailored treatments are essential to manage these conditions effectively, ensuring skin health and relief from associated symptoms.</p>
+      </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+            <div class="about-image zoomIn">
+                <img src="./Assets/tired-femalel.jpg">
+              </div>
+          <div class="about-content slideInLeft">
+            <h1>Anxiety</h1>
+        <p>Anxiety is a mental health condition characterized by intense, excessive, and persistent worry or fear, often focused on everyday situations. It can manifest with physical symptoms like a fast heart rate, rapid breathing, and dizziness, contributing to emotional distress and a pervasive sense of unease. Addressing anxiety typically involves therapy, medication, or a combination of both, aimed at managing symptoms and improving the individual's overall mental well-being.</p>
+    </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content slideInLeft">
+            <h1>Psychological Disorders</h1>
+        <p>Psychological disorders encompass a wide range of conditions that affect an individual's mood, thinking, and behavior, often resulting in sleeplessness and mental illness. These disorders can manifest with a variety of symptoms and severity levels, impacting one's emotional and cognitive well-being. Diagnosis and treatment by mental health professionals are crucial to provide appropriate care and support to individuals facing these challenges, helping them regain control of their mental health and overall quality of life.</p>
+    </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+            <div class="about-image zoomIn">
+                <img src="./Assets/female-with-tangled-hair.jpg">
+              </div>
+          <div class="about-content slideInLeft">
+            <h1>Hair Loss</h1>
+        <p>Hair loss, attributed to factors such as heredity, hormonal changes, medical conditions, excessive stress, overheating, and overthinking, is a common concern that affects individuals of all ages. It can lead to thinning or balding, impacting one's self-esteem and confidence. Managing hair loss typically involves identifying the underlying cause and adopting tailored treatments, including lifestyle changes and medications, to promote healthy hair regrowth and overall well-being.</p>
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+          <div class="about-content slideInLeft">
+            <h1>Arthritis</h1>
+        <p>Arthritis is a condition characterized by pain in the joints, which can affect various parts of the body, including the ankles, back, fingers, hands, muscles, neck, and wrists. It often leads to discomfort, reduced mobility, and stiffness, impacting an individual's overall quality of life. Managing arthritis typically involves a combination of medical treatments, physical therapy, and lifestyle adjustments to alleviate symptoms and improve joint function.</p>
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <section class="about">
+            <div class="about-image zoomIn">
+                <img src="./Assets/hand-holding-uterus-ovary-model.jpg">
+              </div>
+          <div class="about-content slideInLeft">
+            <h1>Ovarian Diseases</h1>
+            <p>ovarian diseases encompass a range of conditions affecting the female reproductive system, including PCOD (Polycystic Ovarian Disease), PCOS (Polycystic Ovary Syndrome), issues related to egg growth, and uterine fibroids. These conditions often lead to irregular menstrual cycles, hormonal imbalances, and potential fertility concerns, affecting women's reproductive health. Diagnosis and treatment typically involve medical intervention, lifestyle adjustments, and in some cases, surgical procedures to address these issues and support overall well-being.</p>    
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      
+    </section>
+
+    <!------------------------------------------------------------------------------------------------->
+    <section id="contact">
+
+        
+    <div class="container">
+
+        <h1 style="text-align: center;">Contact &
+          <br> Appointment Page</h1>
+
+        <button id="toggleButton">Forms</button>
+
+        <div class="contact-section active-section">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required >
+
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name "email" required>
+
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <br>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="appointment-section">
+            <h2>Book an Appointment</h2>
+            <form>
+                <label for="appointmentDate">Date:</label>
+                <input type="date" id="appointmentDate" name="appointmentDate" required >
+
+                <br>
+
+                <label for="appointmentTime">Time:</label>
+                <input type="text" id="appointmentTime" name="appointmentTime" required >
+
+                <br>
+
+                <label for="appointmentPurpose">Purpose:</label>
+                <input type="text" id="appointmentPurpose" name="appointmentPurpose" required>
+
+                <br>
+
+                <label for="patientName">Patient's Name:</label>
+                <input type="text" id="patientName" name="patientName" required>
+
+                <br>
+
+                <label for="patientAge">Patient's Age:</label>
+                <input type="text" id="patientAge" name="patientAge" required>
+
+                <br>
+
+                <label for="bloodGroupFile">Previous Records (PDF or Image):</label>
+                <input type="file" id="bloodGroupFile" name="bloodGroupFile" accept=".pdf, .jpg, .jpeg, .png" class="small" >
+
+                <br>
+
+                <label for="additionalNotes">Additional Notes:</label>
+                <textarea id="additionalNotes" name="additionalNotes"></textarea>
+
+                <button type="submit">Book</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="address" style="background: #f7f7f7;">
+            <img src="./Assets/Icons/map-outline.svg" alt="">
+            <h1>Address</h1>
+            <p>5/684, Kalingarayan palayam Bhavani main road,</p>
+            <p>Near by bakery, Bhavani 638301</p>
+        </div>
+
+        <div class="email" style="background: #f7f7f7;">
+            <img src="./Assets/Icons/mail-outline.svg" alt="">
+            <h1>Email</h1>
+            <br>
+            <p>dhanvantrisiddhalayaa@gmail.com</p>
+        </div>
+
+        <div class="phone-number" style="background: #f7f7f7;">
+            <img src="./Assets/Icons/phone-call.png" alt="">
+            <h1>Phone Number</h1>
+            <p>+91 99448 91960 </p>
+            <p>+91 78458 92010</p>
+        </div>
+    </div>
+    
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+      <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Service</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p>@2023 All RIghts Reserved</p>
+  </footer>
+
+    <script>
+        const toggleButton = document.getElementById("toggleButton");
+        const contactSection = document.querySelector(".contact-section");
+        const appointmentSection = document.querySelector(".appointment-section");
+
+        toggleButton.addEventListener("click", () => {
+            if (contactSection.classList.contains("active-section")) {
+                contactSection.classList.remove("active-section");
+                appointmentSection.classList.add("active-section");
+                toggleButton.textContent = "Switch to Contact Form";
+            } else {
+                contactSection.classList.add("active-section");
+                appointmentSection.classList.remove("active-section");
+                toggleButton.textContent = "Switch to Appointment Form";
+            }
+        });
+    </script>
+
+    </section>
+  </div>
+
+    <script src="./Js/Script.js"></script>
+
+    <script>
+      
+function navigateTo(target) {
+    var section = document.querySelector(target);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+</script>
+</body>
+</html>
